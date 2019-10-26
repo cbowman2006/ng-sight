@@ -23,7 +23,7 @@ export class ServerComponent implements OnInit {
   setServerStatus(isOnline: boolean){
     if(isOnline){
       this.serverInput.isOnline = true;
-      this.color = '#66BB6A';
+      this.color = '#66BB6A',
       this.buttonText = 'Shut Down';
     } else{
       this.serverInput.isOnline = false;
