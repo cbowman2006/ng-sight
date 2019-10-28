@@ -22,4 +22,5 @@
             </tr>
         </tbody>
     </table>
+    <pagination (goPage)="goToPage($event)" (goPrev)="goToPrevious()" (goNext)="goToNext()" [page] = "page" [perPage] = "limit" [count] = "total"></pagination>
 </div>
